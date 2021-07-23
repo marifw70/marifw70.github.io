@@ -1,0 +1,196 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+    background-color: #FFF5EB;
+    box-sizing: border-box;
+
+    /* color: white; */
+
+}
+
+
+/* Header  */
+
+.header {
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: #EEEEEE;
+}
+
+.menu {
+    float: right;
+
+}
+
+#webHeader {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F4C7AB;
+    height: 10vh;
+    align-items: center;
+    /* width: 100%; */
+    /* position: fixed; */
+    top: 0px;
+    overflow: hidden;
+    /* width: 1100px;
+    margin: auto;
+    position: relative; */
+}
+
+.link {
+    background-color: #F4C7AB;
+    padding: 10px;
+}
+
+#nama {
+    justify-content: center;
+    color: white;
+    /* font-size: 50px; */
+    font-weight: 800;
+    float: left;
+    background-color: #F4C7AB;
+}
+
+#aboutme {
+    background-color: #B2B8A3;
+
+    padding: 50px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 2vw 3vw;
+}
+
+#portfolio {
+    background-color: #B2B8A3;
+
+    padding: 50px;
+    border-radius: 20px 20px 20px 20px;
+    margin: 2vw 3vw;
+}
+
+#logoContainer {
+    padding-left: 10px;
+    height: 100%;
+}
+
+#logo {
+    /* width: 100px; mengubah ukuran logo */
+    height: 100%;
+}
+
+#judul {
+    color: white;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vw;
+}
+
+.link:hover {
+    color: cyan;
+}
+
+#navigasi {
+    display: flex;
+    justify-content: space-around;
+    width: 20vw;
+    /*  vw adalah viewport untuk width */
+    height: 100%;
+    /* vh adalah viewport untuk height */
+    align-items: center;
+    padding-right: 5vw;
+    background-color: #F4C7AB;
+
+}
+
+#fotoArif {
+    /* padding: 30px 30px; */
+    width: 15%;
+    /* height: auto;  */
+}
+
+#utama {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+
+    padding: 10px;
+}
+
+.judulProyek {
+    text-align: center;
+    flex-basis: 31%;
+
+}
+
+.project1 {
+    margin-left: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+h2 {
+    margin: 0
+}
+
+
+.gambar-project {
+    border-radius: 10%;
+    padding: 5%;
+
+}
+
+#floatingButton:active {
+    background-color: white;
+}
+
+#judulSubutama {
+    margin: 0;
+    color: #F4C7AB;
+
+}
+
+.grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    text-align: center;
+    justify-content: space-evenly;
+
+
+}
+
+footer {
+    background-color: F4C7AB;
+    height: 10vh;
+    text-align: center;
+
+}
+
+.subpro {
+    flex-basis: 31%;
+    margin-bottom: 5%;
+    text-align: left;
+
+}
+
+#contact {
+    text-align: center;
+    background-color: #B2B8A3;
+    margin: 2vw 3vw;
+    border-radius: 20px 20px 20px 20px;
+
+}
